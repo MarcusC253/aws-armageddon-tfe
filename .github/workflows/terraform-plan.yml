@@ -4,7 +4,7 @@ on:
   pull_request:
 
 env:
-  TF_CLOUD_ORGANIZATION: "Darian"
+  TF_CLOUD_ORGANIZATION: "awsarmageddon"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "awsarmageddon-tfe"
   CONFIG_DIRECTORY: "./"
